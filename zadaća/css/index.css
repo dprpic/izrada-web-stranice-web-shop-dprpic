@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+main {
+    margin-top: -4px;
+}
+.banner img {
+    width: 100%;
+    margin-bottom: 60px;
+}
+.popular {
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 30px;
+}
+.pop_proizvod {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.pop_proizvod img{
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+}
+.pop_proizvodi1 {
+    position: relative;
+    padding:8px;
+}
+.pop_proizvodi2 {
+    position: relative;
+    padding:8px;
+}
+.pop_proizvodi1 button {
+    position: absolute;
+    bottom: 35px;
+    right: 30px;
+    padding: 10px 15px;
+    background: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+}
+.pop_proizvodi2 button {
+    position: absolute;
+    bottom: 35px;
+    left: 55px;
+    padding: 10px 15px;
+    background: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+}
+.pop_proizvodi1 button:hover {
+    color:white;
+    background-color: black;
+    transition: 0.5s ease;
+}
+.pop_proizvodi2 button:hover {
+    color:white;
+    background-color: black;
+    transition: 0.5s ease;
+}
+
+
+.pop_proizvod_2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 30px;
+}
+.pop_proizvod_2 img{
+    width: 315px;
+    height: 250px;
+    border-radius: 15px;
+}
+.pop_proizvodi3 {
+    position: relative;
+}
+.pop_proizvodi4 {
+    position: relative;
+}
+.pop_proizvodi5 {
+    position: relative;
+}
+.pop_proizvodi3 p {
+    position: absolute;
+    top: 15px;
+    right: 115px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+.pop_proizvodi4 p {
+    position: absolute;
+    top: 15px;
+    right: 115px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+.pop_proizvodi5 p {
+    position: absolute;
+    top: 15px;
+    right: 115px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+
